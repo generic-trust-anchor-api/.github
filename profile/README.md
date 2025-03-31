@@ -12,7 +12,9 @@ The current implementation provides
 - a general core framework for GTA API.
 - a software-based provider for GTA API.
 
-Using these two components it is possible to build and run your first GTA API example applications. Please refer to the software provider repository for more information about the [supported profiles]( https://github.com/generic-trust-anchor-api/gta-api-sw-provider?tab=readme-ov-file#supported-profiles).
+Using these two components it is possible to build and run your first GTA API example applications. Please refer to the software provider repository for more information about the [supported profiles]( https://github.com/generic-trust-anchor-api/gta-api-sw-provider?tab=readme-ov-file#supported-profiles). Profile specifications within the namespace `com.github.generic-trust-anchor-api` can be found [here](https://github.com/generic-trust-anchor-api/gta-api-profiles).
+
+The gta-cli is an additional tool to help getting started with GTA API, as it provides access to GTA API library functions on the command line.
 
 Licensing information can be found in the respective GTA API repositories and their dependencies.
 
@@ -29,4 +31,10 @@ Nevertheless, the software provider is prepared to achieve a minimal security le
 The GTA API software provider allows to develop an application which is based on the GTA API interfaces without having a secure element. The GTA API software provider can then be enhanced (e.g., by providing a hardware unique key) or replaced by another provider supporting some hardware secure element at a later stage.
 
 The cryptographic functions are computed using the [OpenSSL](https://openssl-library.org/) library as 3rd party cryptographic service provider.
+
+## GTA-CLI
+The repository [gta-cli](https://github.com/generic-trust-anchor-api/gta-cli) provides a command line interface for the Generic Trust Anchor API. It exposes GTA API library functions to the command line and provides high-level use-case examples.
+
+## GTA API Profiles
+The repository [gta-api-profiles](https://github.com/generic-trust-anchor-api/gta-api-profiles) contains GTA API profile specifications within the namespace com.github.generic-trust-anchor-api.
 
