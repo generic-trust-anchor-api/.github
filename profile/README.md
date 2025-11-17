@@ -38,3 +38,5 @@ The repository [gta-cli](https://github.com/generic-trust-anchor-api/gta-cli) pr
 ## GTA API Profiles
 The repository [gta-api-profiles](https://github.com/generic-trust-anchor-api/gta-api-profiles) contains GTA API profile specifications within the namespace com.github.generic-trust-anchor-api.
 
+## GTA API for OpenSSL
+The repository [gta-api-for-openssl](https://github.com/generic-trust-anchor-api/gta-api-for-openssl) contains a proof-of-concept implementation of an OpenSSL provider, enabling the use of the Generic Trust Anchor API by OpenSSL. The provided examples demonstrate how to use the GTA API to manage and store all credentials (especially private keys and trusted certificates) required for TLS and CMP. Signature generation is performed by the GTA API using the profile [com.github.generic-trust-anchor-api.basic.signature](https://github.com/generic-trust-anchor-api/gta-api-profiles/blob/main/doc/profile_com.github.generic-trust-anchor-api.basic.signature.md).
